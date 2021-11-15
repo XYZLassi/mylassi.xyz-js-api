@@ -72,7 +72,7 @@ export default class LessonsApi {
       let formParams = {
       };
 
-      let authNames = ['ApiKeyAuth'];
+      let authNames = [];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = Lesson;
@@ -379,7 +379,7 @@ export default class LessonsApi {
       let formParams = {
       };
 
-      let authNames = ['ApiKeyAuth'];
+      let authNames = [];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = LessonPublic;

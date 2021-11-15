@@ -108,7 +108,7 @@ export default class ExercisesApi {
       let formParams = {
       };
 
-      let authNames = ['ApiKeyAuth'];
+      let authNames = [];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = Exercise;
@@ -195,7 +195,7 @@ export default class ExercisesApi {
       let formParams = {
       };
 
-      let authNames = ['ApiKeyAuth'];
+      let authNames = [];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ExerciseList;

@@ -1,6 +1,6 @@
 # MyLassiXyz.LessonsApi
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *https://api.mylassi.xyz*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -25,12 +25,6 @@ Method | HTTP request | Description
 
 ```javascript
 import MyLassiXyz from 'my_lassi_xyz';
-let defaultClient = MyLassiXyz.ApiClient.instance;
-// Configure API key authorization: ApiKeyAuth
-let ApiKeyAuth = defaultClient.authentications['ApiKeyAuth'];
-ApiKeyAuth.apiKey = 'YOUR API KEY';
-// Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-//ApiKeyAuth.apiKeyPrefix = 'Token';
 
 let apiInstance = new MyLassiXyz.LessonsApi();
 let docId = 56; // Number | 
@@ -56,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiKeyAuth](../README.md#ApiKeyAuth)
+No authorization required
 
 ### HTTP request headers
 
@@ -380,12 +374,6 @@ Name | Type | Description  | Notes
 
 ```javascript
 import MyLassiXyz from 'my_lassi_xyz';
-let defaultClient = MyLassiXyz.ApiClient.instance;
-// Configure API key authorization: ApiKeyAuth
-let ApiKeyAuth = defaultClient.authentications['ApiKeyAuth'];
-ApiKeyAuth.apiKey = 'YOUR API KEY';
-// Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-//ApiKeyAuth.apiKeyPrefix = 'Token';
 
 let apiInstance = new MyLassiXyz.LessonsApi();
 let publicId = "publicId_example"; // String | 
@@ -411,7 +399,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiKeyAuth](../README.md#ApiKeyAuth)
+No authorization required
 
 ### HTTP request headers
 

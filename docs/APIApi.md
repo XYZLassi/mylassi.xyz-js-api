@@ -1,6 +1,6 @@
 # MyLassiXyz.APIApi
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *https://api.mylassi.xyz*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -18,12 +18,6 @@ Method | HTTP request | Description
 
 ```javascript
 import MyLassiXyz from 'my_lassi_xyz';
-let defaultClient = MyLassiXyz.ApiClient.instance;
-// Configure API key authorization: ApiKeyAuth
-let ApiKeyAuth = defaultClient.authentications['ApiKeyAuth'];
-ApiKeyAuth.apiKey = 'YOUR API KEY';
-// Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-//ApiKeyAuth.apiKeyPrefix = 'Token';
 
 let apiInstance = new MyLassiXyz.APIApi();
 let loginRequestBody = new MyLassiXyz.LoginRequestBody(); // LoginRequestBody | 
@@ -49,7 +43,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiKeyAuth](../README.md#ApiKeyAuth)
+No authorization required
 
 ### HTTP request headers
 

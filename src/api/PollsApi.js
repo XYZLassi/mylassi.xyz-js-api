@@ -69,7 +69,7 @@ export default class PollsApi {
       let formParams = {
       };
 
-      let authNames = ['ApiKeyAuth'];
+      let authNames = [];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = Poll;
@@ -162,7 +162,7 @@ export default class PollsApi {
       let formParams = {
       };
 
-      let authNames = ['ApiKeyAuth'];
+      let authNames = [];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = PollSession;
@@ -309,7 +309,7 @@ export default class PollsApi {
       let formParams = {
       };
 
-      let authNames = ['ApiKeyAuth'];
+      let authNames = [];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = PollSession;

@@ -1,6 +1,6 @@
 # MyLassiXyz.ImagesApi
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *https://api.mylassi.xyz*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------

@@ -100,12 +100,6 @@ Please follow the [installation](#installation) instruction and execute the foll
 ```javascript
 var MyLassiXyz = require('my_lassi_xyz');
 
-var defaultClient = MyLassiXyz.ApiClient.instance;
-// Configure API key authorization: ApiKeyAuth
-var ApiKeyAuth = defaultClient.authentications['ApiKeyAuth'];
-ApiKeyAuth.apiKey = "YOUR API KEY"
-// Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-//ApiKeyAuth.apiKeyPrefix['X-API-Key'] = "Token"
 
 var api = new MyLassiXyz.APIApi()
 var loginRequestBody = new MyLassiXyz.LoginRequestBody(); // {LoginRequestBody} 
@@ -122,7 +116,7 @@ api.apiV2LoginPost(loginRequestBody, callback);
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *https://api.mylassi.xyz*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------

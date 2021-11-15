@@ -65,7 +65,7 @@ export default class APIApi {
       let formParams = {
       };
 
-      let authNames = ['ApiKeyAuth'];
+      let authNames = [];
       let contentTypes = ['application/json'];
       let accepts = ['application/json'];
       let returnType = LoginResponseBody;
